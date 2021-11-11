@@ -6,8 +6,8 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background: rgb(193,62,62);
-    background: linear-gradient(139deg, rgba(193,62,62,1) 0%, rgba(230,179,50,1) 100%);
+    background: rgb(0, 238, 255);
+    background: linear-gradient(139deg, rgb(0, 238, 255) 0%, rgba(230,179,50,1) 100%);
     overflow-x: hidden;
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,10 +111,6 @@ body{
 }
 #todos > .todo-list-container .todo-list .button .completed{
     background-color: #3ec282;
-}
-#todos > .todo-list-container .todo-list .button .editBtn{
-    background: rgb(86, 62, 193);
-    
 }
 #todos > .todo-list-container .todo-list .button .trash{
     background-color: #e72727;
